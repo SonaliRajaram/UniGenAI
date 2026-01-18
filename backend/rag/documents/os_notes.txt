@@ -1,0 +1,57 @@
+OPERATING SYSTEM NOTES
+
+An Operating System (OS) is system software that acts as an interface between computer hardware and the user.
+
+Functions of Operating System:
+- Process management
+- Memory management
+- File system management
+- Device management
+- Security and protection
+
+Process:
+- A process is a program in execution.
+- Process states: New, Ready, Running, Waiting, Terminated.
+- Process Control Block (PCB) stores process information.
+
+CPU Scheduling:
+- Determines which process gets CPU time.
+- Scheduling algorithms:
+  1. First Come First Serve (FCFS)
+  2. Shortest Job First (SJF)
+  3. Priority Scheduling
+  4. Round Robin
+
+Deadlock:
+- A situation where processes wait indefinitely for resources.
+- Necessary conditions:
+  1. Mutual Exclusion
+  2. Hold and Wait
+  3. No Preemption
+  4. Circular Wait
+- Deadlock prevention and avoidance techniques exist.
+
+Memory Management:
+- Main memory is limited and must be efficiently allocated.
+- Paging:
+  - Memory divided into fixed-size pages.
+- Segmentation:
+  - Memory divided based on logical segments.
+- Virtual Memory:
+  - Uses disk to extend main memory.
+  - Page replacement algorithms: FIFO, LRU, Optimal.
+
+File System:
+- Organizes and stores data on storage devices.
+- File allocation methods:
+  - Contiguous
+  - Linked
+  - Indexed
+
+References:
+
+https://www.geeksforgeeks.org/operating-systems
+
+https://os-book.com
+
+https://www.tutorialspoint.com/operating_system

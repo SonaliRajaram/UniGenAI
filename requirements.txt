@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+httpx
+requests
+sentence-transformers
+faiss-cpu
+pydantic
+PyPDF2
+numpy
+sqlalchemy

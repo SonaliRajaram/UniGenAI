@@ -1,0 +1,59 @@
+DATABASE MANAGEMENT SYSTEM NOTES
+
+A Database Management System (DBMS) is software that allows users to store, retrieve, and manage data efficiently.
+
+Advantages of DBMS:
+- Data consistency
+- Reduced redundancy
+- Data security
+- Backup and recovery
+
+Database Models:
+- Hierarchical
+- Network
+- Relational
+- Object-oriented
+
+Relational Model:
+- Data is stored in tables (relations).
+- Each table has rows (tuples) and columns (attributes).
+- Primary key uniquely identifies records.
+
+Normalization:
+- Process of organizing data to minimize redundancy.
+- Normal forms:
+  1. First Normal Form (1NF)
+  2. Second Normal Form (2NF)
+  3. Third Normal Form (3NF)
+- Higher normal forms reduce anomalies.
+
+SQL:
+- Structured Query Language used to interact with databases.
+- Types:
+  - DDL: CREATE, DROP, ALTER
+  - DML: INSERT, UPDATE, DELETE
+  - DQL: SELECT
+  - DCL: GRANT, REVOKE
+
+Transactions:
+- A transaction is a unit of work.
+- ACID properties:
+  - Atomicity
+  - Consistency
+  - Isolation
+  - Durability
+
+Indexing:
+- Improves query performance.
+- Types:
+  - Primary index
+  - Secondary index
+  - B-tree index
+
+References:
+
+https://www.geeksforgeeks.org/dbms
+
+https://www.javatpoint.com/dbms-tutorial
+
+https://www.tutorialspoint.com/dbms

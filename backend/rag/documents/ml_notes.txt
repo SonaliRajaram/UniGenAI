@@ -1,0 +1,66 @@
+MACHINE LEARNING NOTES
+
+Machine Learning (ML) is a subfield of Artificial Intelligence that enables systems to learn patterns from data and make predictions or decisions without being explicitly programmed.
+
+Types of Machine Learning:
+1. Supervised Learning:
+   - Training data contains input-output pairs.
+   - Examples: Linear Regression, Logistic Regression, Decision Trees, Support Vector Machines.
+   - Applications: Spam detection, house price prediction, medical diagnosis.
+
+2. Unsupervised Learning:
+   - No labeled output.
+   - Finds hidden patterns or structure in data.
+   - Examples: K-Means Clustering, Hierarchical Clustering, Principal Component Analysis (PCA).
+   - Applications: Customer segmentation, anomaly detection.
+
+3. Semi-Supervised Learning:
+   - Combination of labeled and unlabeled data.
+   - Used when labeled data is scarce.
+
+4. Reinforcement Learning:
+   - Agent learns by interacting with an environment.
+   - Uses rewards and penalties.
+   - Applications: Game playing, robotics, recommendation systems.
+
+Principal Component Analysis (PCA):
+- PCA is a dimensionality reduction technique.
+- It transforms high-dimensional data into a lower-dimensional space while preserving maximum variance.
+- Steps:
+  1. Standardize the data
+  2. Compute covariance matrix
+  3. Calculate eigenvalues and eigenvectors
+  4. Select principal components
+- Benefits:
+  - Reduces computation
+  - Removes redundancy
+  - Improves visualization
+
+Overfitting and Underfitting:
+- Overfitting: Model learns noise and performs poorly on unseen data.
+- Underfitting: Model is too simple to capture data patterns.
+- Solutions:
+  - Regularization
+  - Cross-validation
+  - More data
+  - Feature selection
+
+Model Evaluation Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+
+Bias-Variance Tradeoff:
+- Bias: Error due to oversimplified assumptions.
+- Variance: Error due to sensitivity to data.
+- Goal is to balance both.
+
+References:
+
+https://scikit-learn.org/stable/user_guide.html
+
+https://machinelearningmastery.com
+
+https://towardsdatascience.com

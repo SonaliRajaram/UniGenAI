@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UniGenAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="role-selection">
+    <h1>UniGenAI</h1>
+    <p>Select your AI Assistant</p>
+
+    <div class="grid">
+        <img src="images/academic.png" onclick="selectRole('academic')" />
+        <img src="images/content.png" onclick="selectRole('content')" />
+        <img src="images/code.png" onclick="selectRole('code')" />
+        <img src="images/general.png" onclick="selectRole('general')" />
+    </div>
+</section>
+
+<section id="chat-container" class="hidden">
+    <header class="chat-header">
+        <span id="role-title"></span>
+        <div>
+            <button id="voice-toggle" onclick="toggleVoice()">🔊 Voice ON</button>
+            <button onclick="resetRole()">⬅ Back</button>
+        </div>
+    </header>
+
+    <main id="chat-box"></main>
+
+    <footer class="chat-input">
+        <input id="user-input" placeholder="Ask your question..." />
+        <button onclick="sendMessage()">➤</button>
+        <button onclick="startVoice()">🎤</button>
+
+        <div id="academic-tools" class="hidden">
+            <input type="file" id="pdf-upload" accept=".pdf,.txt" />
+            <button onclick="uploadPDF()">📄 Upload Notes</button>
+            <button onclick="startMockInterview()">🎯 Mock Interview</button>
+            <button onclick="togglePlanner()">📅 Study Planner</button>
+        </div>
+
+        <div id="planner-box" class="hidden">
+            <input type="date" id="exam-date" />
+            <input type="number" id="hours" placeholder="Hours per day" />
+            <button onclick="submitPlanner()">Generate Plan</button>
+        </div>
+    </footer>
+</section>
+
+<script src="script.js"></script>
+<script>
+    // Initialize user on page load
+    document.addEventListener('DOMContentLoaded', initializeUser);
+</script>
+</body>
+</html>
