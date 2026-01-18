@@ -156,7 +156,7 @@ Comprehensive metrics and tracking:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -355,7 +355,7 @@ PUT /api/planner/1/update?completion=45.5
 
 ---
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Users Table
 ```sql
