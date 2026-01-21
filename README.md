@@ -1,6 +1,7 @@
 # UniGenAI: An Intelligent Multi-Role LLM System for Learning, Content Generation and Software Support
 
 > An AI-powered platform for learning, content creation, coding assistance, and interview preparation with advanced user management, real-time streaming, and comprehensive analytics.
+> A Multi-Agent, Intent-Aware AI Assistant Platform with Real-Time Streaming, RAG, and Interview Evaluation
 
 **Version**: 2.0 (Production Ready)  
 **Last Updated**: January 18, 2026  
