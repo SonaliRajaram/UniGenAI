@@ -74,7 +74,6 @@ Generate intelligent study schedules:
 - **Exam-Date Based**: Input exam date and get day-wise breakdown
 - **Topic-Aware**: Organize topics by difficulty and prerequisites
 - **Time Allocation**: Balanced daily schedule with review sessions
-- **Progress Tracking**: Monitor completion percentage for each plan
 - **Adaptive Planning**: Adjust based on your progress
 
 **Features**:
@@ -295,8 +294,6 @@ http://localhost:8000/ui
 ---
 
 ##  API Endpoints
-
-All endpoints are documented in `SYSTEM_ARCHITECTURE.md`. Here's a quick reference:
 
 ### Chat
 ```bash
@@ -540,7 +537,6 @@ Result: Complete isolation, different users see different data
 
 ### Async/Await Architecture
 - Non-blocking I/O for concurrent requests
-- Multiple users handled simultaneously
 - Efficient resource utilization
 
 ### Streaming Responses
@@ -575,10 +571,6 @@ Tests cover:
 - Data isolation between users
 - Study plan management
 - Agent routing
-
-### Manual Testing
-See `QUICK_START.md` for detailed manual testing procedures.
-
 
 ##  Troubleshooting
 
